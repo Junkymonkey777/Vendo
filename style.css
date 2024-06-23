@@ -1,0 +1,217 @@
+:root*{
+    --pink:hsl(331, 81%, 78%);
+}
+
+
+
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+header .icons{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color:#FFC0CB;
+}
+
+header{
+    position: fixed;
+    top: 0; left:0; right:0;
+    background:#fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 5px 10px 8px #FFC0CB;
+}
+
+section{
+    padding: 2rem 9%; 
+}
+
+header  .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#000000;
+
+}
+header .navbar a:hover{
+    color:#FFC0CB
+}
+ section{
+    padding:5% 10%;
+}
+
+.home{
+    width:100%;
+    height:100vh;
+    background-image: url(../Images/Screenshot\ 2024-06-22\ at\ 08.58.54.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items:end;
+}
+.text{
+    color:#fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.text p{
+    color: #fff;
+    font-size:16px;
+    font-style:italic;
+    margin-bottom: 20px;
+}
+.button{
+    display:inline-block;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    text-transform: capitalize;
+    border: 2px solid #000000;
+    padding: 12px 25px;
+    transition:all .30s ease;
+}
+
+.button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+.center-text h2{
+    color:#000000;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+    gap: 2rem;
+}
+.row{
+    position: relative;
+    transition: .40s;
+}
+.row img{
+    width: 85%;
+    height: auto;
+    transition: all .40s;
+}
+
+.products h1{
+    text-align: center;
+}
+.row img:hover{
+    transform: scale(0.9);
+
+}
+.center-text span{
+    color:#FFC0CB;
+}
+.client-reviews{
+    background-color:rgb(255, 251, 253);
+
+}
+.reviews{
+    text-align: center;
+
+}
+.reviews h3{
+    color:#000000;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+.reviews img{
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.reviews p{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.reviews h2{
+    font-size: 22px;
+    color:#000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom:2px;
+
+
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box{ 
+    flex:1 1 25rem;
+
+}
+.footer .box-container .box h1{ 
+    color:#333;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+.footer .box-container .box a{ 
+    display: block;
+    color:#666;
+    font-size:1rem 0;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a:hover{ 
+    color:#FFC0CB;
+    text-decoration: underline;
+}
+.footer .credit{
+    text-align: center;
+    padding:1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:#333;
+    border-top: .1rem solid rgba(0,0,0,.1);
+}
+
+.footer .credit span{
+    color:#FFC0CB;
+}
+
+
+
+
+
